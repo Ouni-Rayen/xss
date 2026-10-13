@@ -39,7 +39,7 @@ import re
 
 app = Flask(__name__)
 
-FLAG = "FLAG{unescaped_input_becomes_code}"
+FLAG = "Securinets{XSS_is_the_best}"
 
 # If the query contains any of these, it's a real injection vector, not
 # just text that happens to contain the word "script". This is a simple,
